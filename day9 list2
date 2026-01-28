@@ -1,0 +1,26 @@
+课程笔记
+1.写法
+删除元素 pop 
+  temp = fruit.pop(2)
+  fruit.append(temp)
+  fruit.insert(1, "temp")
+  fruit.clear()
+  del fruit[1]
+  print(items.index('python',1))
+  print(items.count('swift'))
+  items.sort
+  items.reverse
+  
+2.用法
+  循环嵌套的list
+  scores = []
+for _ in range(5):
+    temp = []
+    for _ in range(3):
+        score = int(input('请输入: '))
+        temp.append(score)
+    scores.append(temp)
+print(scores)
+
+  3.输出格式
+    print(f'\033[031m{ball:0>2d}\033[0m', end=' ')
